@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link href="../Styles/stylesform.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+        <img src="../img/LOGO.png" alt="Studio Ghibli Logo" class="logo">
+        <hgroup>
+            <h1>Sumérgete en la fantasía y la naturaleza con Studio Ghibli</h1>
+        </hgroup>
+    </header>
+<div class="navbar">
+	<div class="nav-menu">
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="../paginas/Peliculas.html">Películas</a></li>
+				<li><a href="../paginas/Formulario.html">Formulario</a></li>
+				<li><a href="../paginas/ResumenEjercicios.html">Resumen de Ejercicios</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+	<div class="form-container">
+        <h2>Contáctanos</h2>
+        <form action="mailto:tu_correo@ejemplo.com" method="post" enctype="text/plain">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+	
+	<div class="pie">
+	    
+	<div class="redes-sociales">
+        <a href="https://www.facebook.com/GhibliUSA/" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/ghibliusa?lang=es" class="social-icon"><img src="../img/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/ghibliusa/?hl=es" class="social-icon"><img src="../img/insta.jpg" alt="Instagram"></a>
+    </div>
+    <div class="qr">
+        <img src="../img/QR.png" alt="QR">
+        
+    </div>
+	</div>
+</html>
